@@ -178,7 +178,7 @@ local function updateTextures(button, checkable)
 end
 
 local MenuBG = CreateFrame("Frame", "TTMenuBackground", UIParent)
-MenuBG:CreatePanel("Transparent", borderwidth(1), 1, "BOTTOMRIGHT", Minimap, "TOPRIGHT", 2, 3)
+MenuBG:CreatePanel("Transparent", borderwidth(1), 1, "BOTTOMRIGHT", UIParent, "BOTTOMRIGHT", -501, 24)
 MenuBG:SetFrameLevel(defaultframelevel)
 MenuBG:SetFrameStrata("HIGH")
 MenuBG:EnableMouse(true)
