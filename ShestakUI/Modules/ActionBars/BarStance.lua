@@ -56,7 +56,14 @@ bar:SetScript("OnEvent", function(self, event)
 				else
 					button:SetPoint("TOPLEFT", ShiftHolder, "TOPLEFT", 0, 0)
 				end
-			else
+            elseif i == 4 then
+				local previous = _G["StanceButton".. 1]
+				if C.actionbar.stancebar_horizontal == true then
+					button:SetPoint("BOTTOMLEFT", previous, "TOPLEFT", 0, C.actionbar.button_space)
+				else
+					button:SetPoint("TOP", previous, "BOTTOM", 0, -C.actionbar.button_space)
+                end
+            else
 				local previous = _G["StanceButton"..i-1]
 				if C.actionbar.stancebar_horizontal == true then
 					button:SetPoint("LEFT", previous, "RIGHT", C.actionbar.button_space, 0)
