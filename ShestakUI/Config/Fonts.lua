@@ -20,16 +20,16 @@
 ----------------------------------------------------------------------------------------
 C["font"] = {
 	-- Stats font
-	["stats_font"] = C.media.pixel_font,
-	["stats_font_size"] = 8,
-	["stats_font_style"] = "OUTLINEMONOCHROME",
-	["stats_font_shadow"] = false,
+	["stats_font"] = C.media.normal_font,
+	["stats_font_size"] = 12,
+	["stats_font_style"] = "OUTLINE",
+	["stats_font_shadow"] = true,
 
 	-- Combat text font
 	["combat_text_font"] = C.media.pixel_font,
 	["combat_text_font_size"] = 16,
 	["combat_text_font_style"] = "OUTLINEMONOCHROME",
-	["combat_text_font_shadow"] = false,
+	["combat_text_font_shadow"] = true,
 
 	-- Chat font
 	["chat_font"] = C.media.normal_font,
@@ -37,9 +37,9 @@ C["font"] = {
 	["chat_font_shadow"] = true,
 
 	-- Chat tabs font
-	["chat_tabs_font"] = C.media.pixel_font,
-	["chat_tabs_font_size"] = 8,
-	["chat_tabs_font_style"] = "OUTLINEMONOCHROME",
+	["chat_tabs_font"] = C.media.normal_font,
+	["chat_tabs_font_size"] = 12,
+	["chat_tabs_font_style"] = "OUTLINE",
 	["chat_tabs_font_shadow"] = false,
 
 	-- Action bars font
