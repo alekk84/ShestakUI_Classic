@@ -281,7 +281,7 @@ C["chat"] = {
 	["background_alpha"] = 0.7,					-- Background alpha
 	["filter"] = true,							-- Removing some systems spam ("Player1" won duel "Player2")
 	["spam"] = false,							-- Removing some players spam (gold/portals/etc)
-	["width"] = 350,							-- Chat width
+	["width"] = 420,							-- Chat width
 	["height"] = 112,							-- Chat height
 	["chat_bar"] = false,						-- Lite Button Bar for switch chat channel
 	["chat_bar_mouseover"] = false,				-- Lite Button Bar on mouseover
@@ -443,7 +443,7 @@ C["filger"] = {
 	["expiration"] = false,						-- Sort cooldowns by expiration time
 	["buffs_size"] = 37,						-- Buffs size
 	["cooldown_size"] = 30,						-- Cooldowns size
-	["pvp_size"] = 60,							-- PvP debuffs size
+	["pvp_size"] = 40,							-- PvP debuffs size
 }
 
 ----------------------------------------------------------------------------------------
